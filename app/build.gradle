@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
-        applicationId "com.fanwe.demo"
+        applicationId "cn.linhome.demo"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -19,7 +19,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.github.yangwb1259883028:libcore:1.1.0'
     implementation project(':lib')
 }

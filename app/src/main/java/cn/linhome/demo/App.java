@@ -1,4 +1,4 @@
-package com.fanwe.demo;
+package cn.linhome.demo;
 
 import android.app.Application;
 

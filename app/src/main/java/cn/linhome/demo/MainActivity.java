@@ -1,13 +1,14 @@
-package com.fanwe.demo;
+package cn.linhome.demo;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.GridLayout;
 
-import com.fanwe.demo.adapter.ListViewAdapter;
-import com.fanwe.lib.gridlayout.SDGridLayout;
 import com.fanwe.library.SDLibrary;
 import com.fanwe.library.activity.SDBaseActivity;
+
+import cn.linhome.demo.adapter.ListViewAdapter;
+import cn.linhome.lib.gridlayout.SDGridLayout;
 
 public class MainActivity extends SDBaseActivity
 {

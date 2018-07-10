@@ -1,15 +1,16 @@
-package com.fanwe.demo.adapter;
+package cn.linhome.demo.adapter;
 
 import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.fanwe.demo.DataModel;
-import com.fanwe.demo.R;
 import com.fanwe.library.adapter.SDSimpleAdapter;
 
 import java.util.List;
+
+import cn.linhome.demo.DataModel;
+import cn.linhome.demo.R;
 
 /**
  * Created by Administrator on 2017/7/17.
