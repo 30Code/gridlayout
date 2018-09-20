@@ -2,7 +2,6 @@ package cn.linhome.demo;
 
 import android.app.Application;
 
-import com.fanwe.library.SDLibrary;
 
 /**
  * des:
@@ -16,6 +15,5 @@ public class App extends Application
     public void onCreate()
     {
         super.onCreate();
-        SDLibrary.getInstance().init(this);
     }
 }
